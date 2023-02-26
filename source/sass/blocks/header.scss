@@ -1,0 +1,29 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  height: 65px;
+  margin: 0 auto;
+}
+
+.main-header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 280px;
+  background: url('../img/logo-mobile-text.svg') center / 101px 18px no-repeat;
+}
+
+.main-header__toggle {
+  align-self: center;
+  width: 24px;
+  height: 16px;
+  border: none;
+  cursor: pointer;
+  background: url('../img/icons/burger.png') center / 24px 16px no-repeat;
+}
+
+.main-header__nav-list {
+  display: none;
+}
+

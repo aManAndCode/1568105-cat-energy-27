@@ -1,0 +1,27 @@
+.welcome {
+  width: 320px;
+  height: 500px;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+  background:
+    url('../img/bg-welcome-can.png') center 167px / 280px 270px no-repeat,
+    linear-gradient(to bottom,rgba(104, 183, 56, 0.85) 302px, #ffffff 302px, #ffffff 480px),
+    url('../img/bg-welcome-cat.jpg') center top / 320px 302px no-repeat;
+  &__title {
+    padding-top: 27px;
+    margin-bottom: 25px;
+  }
+  &__text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 302px;
+  }
+}
+// &__container {
+//   margin: 0 auto;
+//   width: 280px;
+// }

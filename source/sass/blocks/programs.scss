@@ -1,0 +1,44 @@
+.programs {
+  width: 280px;
+  margin: 0 auto;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+  }
+  &__item {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background:
+      url('../img/cat-sitting.svg') 21.5px 21px / 50px 53px no-repeat,
+      #f2f2f2;
+  }
+  &__item:nth-of-type(2) {
+    background:
+      url('../img/cat-walking.svg') 12.5px 24px / 67px 50px no-repeat,
+      #f2f2f2;
+  }
+  &__item-title {
+    font-size: 24px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-top: 35px;
+    padding-left: 70px;
+    margin-bottom: 34px;
+  }
+  &__item-text {
+    font-size: 14px;
+  }
+  &__item-line {
+    border-top: 1px solid #d9d9d9;
+    margin-top: 23px;
+  }
+  &__item-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -1px;
+    letter-spacing: 0.1px;
+  }
+}

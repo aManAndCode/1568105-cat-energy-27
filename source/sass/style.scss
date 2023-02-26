@@ -1,0 +1,14 @@
+//* presets
+@use "./presets/reset.scss";
+@use "./presets/visually-hidden.scss";
+@use "./presets/fonts.scss";
+@use "./presets/colors.scss";
+@use "./presets/title.scss";
+
+//* blocks
+@use "./blocks/green-button.scss";
+@use "./blocks/catalog-link.scss";
+@use "./blocks/page-body.scss";
+@use "./blocks/header.scss";
+@use "./blocks/welcome.scss";
+@use "./blocks/programs.scss";
