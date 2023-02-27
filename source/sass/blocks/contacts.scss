@@ -1,0 +1,26 @@
+.contacts {
+  width: 320px;
+  margin: 0 auto;
+  &__container {
+    width: 280px;
+    margin: 0 auto 26px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    width: 139px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #111111;
+  }
+  &__address {
+    width: 139px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

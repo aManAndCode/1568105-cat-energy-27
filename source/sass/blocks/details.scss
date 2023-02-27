@@ -1,0 +1,34 @@
+.details {
+  width: 280px;
+  margin: 0 auto 50px;
+  &__title {
+    color: #000000;
+    margin-bottom: 42px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  &__item {
+    height: 60px;
+    background-position: top left -1px;
+  }
+  &__item:nth-of-type(1) {
+    background: url('../img/icons/details-1.jpg') top left -1px / 61px 60px no-repeat;
+  }
+  &__item:nth-of-type(2) {
+    background: url('../img/icons/details-2.jpg') top left -1px / 61px 60px no-repeat;
+  }
+  &__item:nth-of-type(3) {
+    background: url('../img/icons/details-3.jpg') top left -1px / 61px 60px no-repeat;
+  }
+  &__item:nth-of-type(4) {
+    background: url('../img/icons/details-4.jpg') top left -1px / 61px 60px no-repeat;
+  }
+  &__item-text {
+    font-size: 14px;
+    padding-left: 80px;
+    margin-top: 1.5px;
+  }
+}
