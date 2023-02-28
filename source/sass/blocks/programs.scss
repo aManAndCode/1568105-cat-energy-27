@@ -1,22 +1,25 @@
 .programs {
-  width: 280px;
-  margin: 0 auto 22.5px;
+  margin: 0 20px 21px;
   &__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 21px;
+    max-width: 570px;
+    margin: 0 auto;
   }
   &__item {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    padding: 35px 20px 20px;
+    min-width: 240px;
+  }
+  &__item:not(:last-of-type) {
+    margin-bottom: 21px;
+  }
+  &__item:nth-of-type(1) {
     background:
-      url('../img/cat-sitting.svg') 21.5px 21px / 50px 53px no-repeat,
+      url('../img/cat-sitting.svg') 23px 21px / 50px 53px no-repeat,
       #f2f2f2;
   }
   &__item:nth-of-type(2) {
+    // padding-top: 34px;
     background:
-      url('../img/cat-walking.svg') 12.5px 24px / 67px 50px no-repeat,
+      url('../img/cat-walking.svg') 14px 23px / 67px 50px no-repeat,
       #f2f2f2;
   }
   &__item-title {
@@ -24,21 +27,20 @@
     line-height: 26px;
     text-transform: uppercase;
     color: #000000;
-    padding-top: 35px;
-    padding-left: 70px;
-    margin-bottom: 34px;
+    padding-left: 72px;
+    margin-bottom: 35px;
   }
   &__item-text {
     font-size: 14px;
+    margin-left: 1px; // PP
   }
   &__item-line {
     border-top: 1px solid #d9d9d9;
-    margin-top: 23px;
+    margin-top: 22px;
   }
   &__item-link {
     display: inline-block;
     margin-top: 10px;
-    margin-left: -1px;
-    letter-spacing: 0.1px;
+    // margin-left: 1px;
   }
 }

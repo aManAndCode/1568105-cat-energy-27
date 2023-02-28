@@ -1,24 +1,26 @@
 .example {
-  width: 320px;
+  // width: 320px;
   margin: 0 auto;
   padding-top: 26px;
-  background-color: #EAEAEA;
+  background-color: #eaeaea;
   &__container {
     width: 280px;
     margin: 0 auto;
   }
   &__title {
-    margin-bottom: 41.5px;
+    margin-bottom: 42px;
+    margin-left: 1px;
   }
   &__description {
     font-size: 14px;
     margin-bottom: 20px;
+    margin-left: 1px;
   }
   &__list {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
-    margin-bottom: 35px;
+    margin-bottom: 34px;
     text-align: center;
   }
   &__item {
@@ -30,6 +32,7 @@
     border-radius: 3px;
     padding-top: 15px;
     padding-bottom: 10px;
+    // margin-bottom: 1px;
   }
   &__item-title {
     position: absolute;
@@ -48,16 +51,17 @@
     line-height: 24px;
     letter-spacing: -0.05px;
     color: #000000;
-    margin: 0 0 6.5px;
+    margin: -1px 0 7px 2px;
   }
   &__total {
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
   }
   &__preview {
     margin-bottom: 39px;
+    margin-left: 1px; // PP
   }
 }
